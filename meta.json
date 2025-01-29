@@ -1,0 +1,14 @@
+{
+  "$schema": "https://dl.viam.dev/module.schema.json",
+  "module_id": "coderscafe:adc-ads1115",
+  "visibility": "public",
+  "url": "https://github.com/CodersCafeTech/ADS1115-ADC-Viam-Module",
+  "description": "A Module For Connecting ADS115 ADC With Raspberry Pi",
+  "models": [
+    {
+      "api": "rdk:component:generic",
+      "model": "coderscafe:generic:ads1115"
+    }
+  ],
+  "entrypoint": "run.sh"
+}
